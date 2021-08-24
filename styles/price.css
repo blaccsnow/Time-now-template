@@ -1,0 +1,290 @@
+* {
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
+
+body {
+ font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+#head-div-two {
+ display:flex;
+ justify-content:space-between;
+ padding:30px;
+}
+
+#head-flex-two {
+ display:flex;
+}
+
+#head-nav-two {
+ display:none;
+}
+
+#head-nav-two p {
+ margin:0 10px 0 20px;
+ font-size:20px;
+}
+
+#head-nav-two p a {
+ text-decoration:none;
+ color:#222;
+}
+
+#logo-img-two {
+ width:30px;
+ margin-right:10px;
+}
+
+#menu-img-two {
+ width:30px;
+}
+
+#desktop-btn {
+ width:200px;
+ background-color:#352476;
+ border:1px solid #352476;
+ color:#fff;
+ border-radius:5px;
+ font-size:23px;
+ font-weight:bold;
+ outline:none;
+ display:none;
+ padding:15px 0;
+}
+
+#first-section {
+ max-width:90%;
+ margin:auto;
+}
+
+#first-section h1 {
+ font-size:50px;
+ text-align:center;
+ margin-bottom:20px;
+}
+
+#first-section p {
+ font-size:23px;
+ color:#555;
+ text-align:center;
+}
+
+#billing {
+ display:flex;
+ justify-content:center;
+ margin:40px 0;
+}
+
+#billing #monthly {
+ font-weight:bold;
+}
+
+#billing #billing-toggle {
+ width:30px;
+ margin:0 30px;
+}
+
+#second-section {
+ max-width:85%;
+ margin:auto;
+}
+
+#second-section .price-div {
+ width:100%;
+}
+
+#second-section .price-div .prices {
+ max-width:100%;
+ border:1px solid #aaa;
+ border-radius:5px;
+ padding:40px 35px;
+ margin:auto;
+ margin-bottom:40px;
+}
+
+.strong-price {
+ font-size:40px;
+ color:#111;
+}
+
+.price-p {
+ font-size:23px;
+ color:#555;
+}
+
+.price-head {
+ border-bottom:1px solid #aaa;
+}
+
+.price-p-two {
+ font-size:23px;
+ padding:20px 0;
+ color:#555;
+}
+
+.features {
+ padding:30px 0;
+}
+
+.features-list {
+ display:flex;
+}
+
+.features-p {
+ font-size:23px;
+ color:#555;
+ line-height:60px;
+}
+
+.mark {
+ width:28px;
+ margin-right:20px;
+}
+
+.features-btn {
+ width:100%;
+ background-color:#352476;
+ border:1px solid #352476;
+ color:#fff;
+ border-radius:5px;
+ font-size:23px;
+ font-weight:bold;
+ outline:none;
+ padding:15px 0;
+}
+
+#footer-two {
+ width:100%;
+ background-color:#fff;
+}
+
+#footer-two #footer-logo-two {
+ width:30px;
+ margin-left:30px;
+ padding:40px 0;
+}
+
+#footer-two #footer-flex-div-two {
+ max-width:90%;
+ margin:auto;
+ display:flex;
+}
+
+#sub-flex-two {
+ display:flex;
+ flex-direction:column;
+ margin-right:100px;
+}
+
+#sub-flex-two span {
+ margin-bottom:35px;
+}
+
+span h4 {
+ font-size:25px;
+ margin-bottom:20px;
+}
+
+span p {
+ font-size:23px;
+ color:#555;
+ margin-bottom:10px;
+}
+
+#final-two {
+ max-width:90%;
+ margin:auto;
+ padding:10px 0;
+}
+
+#final-two h5 {
+ font-size:25px;
+ margin-bottom:10px;
+}
+
+#mail-two {
+ width:80%;
+ padding:15px 5px;
+ margin-bottom:10px;
+ border:1px solid #111;
+ border-radius:5px;
+}
+
+#final-btn-two {
+ width:40%;
+ padding:15px 0;
+ background-color:#352476;
+ border:1px solid #352476;
+ color:#fff;
+ border-radius:5px;
+ font-size:20px;
+ font-weight:bold;
+ outline:none;
+}
+
+
+@media only screen and (orientation: landscape) and (min-width: 769px) {
+ #head-nav-two {
+  display:flex;
+  margin-top:20px;
+ }
+
+ #menu-img-two {
+  display:none;
+ }
+
+ #desktop-btn {
+  display:block;
+ }
+
+ #first-section p {
+  max-width:70%;
+  margin:auto;
+ }
+
+ #billing {
+  max-width:40%;
+  margin:auto;
+  padding:40px 0;
+ }
+
+ #second-section {
+  max-width:95%;
+ }
+
+ .price-div {
+  display:flex;
+ }
+
+ .prices {
+  width:32%;
+  margin:0 5px;
+  height:600px;
+ }
+
+ #sub-flex-two {
+ flex-direction:row;
+ margin:0;
+ }
+ 
+ #sub-flex-two span {
+ margin-right:50px;
+ }
+ 
+ #final-flex-div-two {
+ display:flex;
+ justify-content:space-between;
+ }
+ 
+ #final-two {
+ width:39%;
+ margin-left:30px;
+ padding:0;
+ }
+ 
+ #footer-flex-div-two {
+ padding:0 100px;
+ }
+}
